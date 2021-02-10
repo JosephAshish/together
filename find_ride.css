@@ -1,0 +1,60 @@
+
+.container{
+position:relative;
+top:70px;
+left:100px;
+
+}
+
+        .form-style-agile input[type="text"],
+        .form-style-agile input[type="number"],
+        .form-style-agile input[type="date"],
+        .form-style-agile input[type="time"],
+        select {
+            outline: none;
+            position: relative;
+            font-size: 16px;
+            border: none;
+            left: 10%;
+            color: #87ceeb;
+            letter-spacing: 1.5px;
+            padding: 12px 15px;
+            width: 35%;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            background: black;
+            display:block;
+        }
+
+        button.book-btn {
+            color: orange;
+            position: relative;
+            background: black;
+            border: none;
+            left: 10%;
+            outline: none;
+            width: 35%;
+            font-size: 15px;
+            border-radius: 0;
+            padding: 14px 0px;
+            cursor: pointer;
+            letter-spacing: 2px;
+            -webkit-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+            transition: 0.5s all;
+        }
+
+        .offerride {
+            position: relative;
+            text-align: left;
+            padding-left: 10%;
+
+            color: #87ceeb;
+            font-family: Arial;
+            font-size: 1.5vw;
+        }
+
+ 

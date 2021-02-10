@@ -1,0 +1,95 @@
+        
+        #link {
+            color: white;
+            text-decoration: none;
+        }
+        
+
+
+
+.signup_container
+{
+position:relative;
+width:100;
+}
+        
+        .signup {
+            position: relative;
+            text-align: centre;
+            padding-left: 35%;
+top:30px;
+            color: white;
+            font-family: Arial;
+            font-size: 1.5vw;
+        }
+        
+        .form-style-agile input[type="text"],
+        .form-style-agile input[type="email"],
+        .form-style-agile input[type="password"],
+        .form-style-agile input[type="date"],
+        .form-style-agile input[type="number"],
+        .form-style-agile input[type="tel"],
+        select {
+            outline: none;
+            position: relative;
+            font-size: 16px;
+            border: none;
+            align:left; 
+            left: 35%;
+            color: #666;
+            letter-spacing: 1.5px;
+            padding: 12px 15px;
+            width: 35%;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            background: #fff;
+        }
+        
+        button.book-btn {
+            color: #fff;
+            position: relative;
+            background: orange;
+            border: none;
+            left: 35%;
+            outline: none;
+            width: 35%;
+            font-size: 15px;
+            border-radius: 0;
+            padding: 14px 0px;
+            cursor: pointer;
+            letter-spacing: 2px;
+            -webkit-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+            transition: 0.5s all;
+        }
+
+
+
+
+.bg
+{
+    position: relative;
+    background: #e8cd30;
+    background: #3369e7;
+    background: #191919;
+    width: 100%;
+
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+.bg
+{
+            position: relative;
+            background: #e8cd30;
+            background: #3369e7;
+            background: #191919;
+width:100%;
+}

@@ -1,0 +1,23 @@
+.profile-container{
+position:relative;
+text-align:left;
+padding-top: 50px;
+padding-left: 80px;
+background-color: skyblue;
+color: whitesmoke;
+
+width:100%;
+font-family:arial;
+font-size:1.1vw;
+/*margin:0 auto;*/
+}
+
+.select{
+position:relative;
+top:-30px;
+right:720px;
+
+font-family: Arial;
+
+
+}

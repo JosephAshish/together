@@ -1,0 +1,92 @@
+.main-container
+{
+    color:black;
+    width:100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+
+.container{
+position:relative;
+top:5px;
+
+left:100px;
+right: 200px;
+font-family:arial;
+font-size:1.1vw;
+/*margin:0 auto;*/
+}
+
+.logout{
+       top: 60px;
+    right: 0px;
+    padding-left: 1350px;
+    position: relative;
+    color: wheat;
+}
+
+	.table-wrapper {
+        background: #fff;
+        padding: 20px 25px;
+        margin: 30px 0;
+		border-radius: 3px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+	.table-title {        
+		padding-bottom: 15px;
+		background: brown;
+		color: #fff;
+		padding: 16px 30px;
+		margin: -20px -25px 10px;
+		border-radius: 3px 3px 0 0;
+    }
+    .table-title h2 {
+		margin: 5px 0 0;
+		font-size: 24px;
+	}
+.menu{
+    top: 180px;
+    left:20px;
+    text-align: left;
+    padding-left: 60px;
+padding-right: 50px;
+    position: relative;
+   
+    
+}
+
+#menulink{
+             color: #FFA500;
+    font-size: 20px;
+    text-decoration: none;
+              
+}
+        .adminname {
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            color: #FFA500;
+            padding-left: 90px;
+            padding-right: 10px;
+            
+            
+        }
+
+        .adminlogo {
+            position: absolute;
+            top: 30px;
+            left: 64px;
+        }
+
+        #adminlogolink {
+            color: wheat;
+            text-decoration: none;
+        }
+        
+body{
+    background-color: #750B0B;
+    position: relative;
+    width:100%;
+    font-family: arial;
+}

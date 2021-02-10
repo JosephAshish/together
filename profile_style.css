@@ -1,0 +1,26 @@
+.profile-container{
+position:relative;
+top:50px;
+
+left:175px;
+width:100%;
+font-family:arial;
+font-size:1.1vw;
+/*margin:0 auto;*/
+}
+
+.select{
+position:relative;
+top:-30px;
+right:720px;
+
+font-family: Arial;
+
+
+}
+
+#deactivate
+{
+    color: red;
+    text-decoration: none;
+}

@@ -1,0 +1,236 @@
+
+
+scroll-container {
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+scroll-container {
+  display: block;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+scroll-page {
+  display: block;
+  height: auto;
+
+}
+
+        .main-container {
+width:100%;
+       
+             }
+
+        .container {
+            position: relative;
+            font-family: Arial;
+  width: 100%;
+        }
+        
+        .logo {
+            position: absolute;
+            top: 30px;
+            left: 64px;
+        }
+        
+        nav,text-block {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 1.09vw;
+            color: white;
+            padding-left: 15px;
+            padding-right: 20px;
+        }
+        
+        .feature {
+            position: absolute;
+            text-align: center;
+            top: 30%;
+            right: 42%;
+            font-size: 1.6vw;
+            color: white;
+        }
+        
+        .name {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            color: cyan;
+            padding-left: 90px;
+            padding-right: 10px;
+            font-family: Bauhaus 93;
+            font-size: 30px;
+        }
+        
+        .tagline {
+            position: absolute;
+            text-align: center;
+            top: 18%;
+            left: 26.2%;
+            color: white;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-family: Forte;
+            font-size: 2.1vw;
+        }
+        
+        #logolink {
+            color: cyan;
+            text-decoration: none;
+        }
+        
+        #link {
+            color: white;
+            text-decoration: none;
+        }
+        
+
+
+
+        .login-container {
+            position: relative;
+            background: #e8cd30;
+            background: #3369e7;
+            background: #191919;
+width:100%;
+        }
+        
+        .login {
+            position: relative;
+            text-align: left;
+            padding-left: 55%;
+            color: white;
+            font-family: Arial;
+            font-size: 1.5vw;
+        }
+        
+        .form-style-agile input[type="text"],
+        .form-style-agile input[type="email"],
+        .form-style-agile input[type="password"],
+        select {
+            outline: none;
+            position: relative;
+            font-size: 16px;
+            border: none;
+            left: 55%;
+            color: #666;
+            letter-spacing: 1.5px;
+            padding: 12px 15px;
+            width: 35%;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            background: #fff;
+        }
+        
+        button.book-btn {
+            color: #fff;
+            position: relative;
+            background: orange;
+            border: none;
+            left: 55%;
+            outline: none;
+            width: 35%;
+            font-size: 15px;
+            border-radius: 0;
+            padding: 14px 0px;
+            cursor: pointer;
+            letter-spacing: 2px;
+            -webkit-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+            transition: 0.5s all;
+        }
+        
+        .webappdetail {
+            position: absolute;
+            text-align: left;
+            top: 110px;
+            padding-left: 5%;
+            font-size: 1.1vw;
+            letter-spacing: 1px;
+            font-family: Arial;
+        }
+
+
+
+
+        .about-container {
+            position: relative;
+            background: white;
+width:100%;
+        }
+
+
+        
+        .about {
+            position: relative;
+            text-align: center;
+color: black;
+            font-family: Arial;
+  
+        }
+
+        .about-content {
+
+        color: #5d5d5d;
+    font-family: gt-eesti,Arial,Helvetica,sans-serif;
+text-align:center;
+padding-left:20%;
+padding-right:20%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.75;
+
+}
+
+
+
+
+
+
+        .contact-container {
+            position: relative;
+            background:#ead032;
+width:100%;
+        }
+
+
+        
+        .contact {
+            position: relative;
+            text-align: left;
+padding-left:10%;
+color: black;
+            font-family: Arial;
+            font-size: 1.5vw;
+        }
+
+
+.contact-content{
+
+        color: #5d5d5d;
+    font-family: gt-eesti,Arial,Helvetica,sans-serif;
+text-align:left;
+padding-left:10%;
+padding-right:20%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.75;
+
+}
+
+
+.icon-block
+{
+    position: relative;
+
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+color:red;
+}

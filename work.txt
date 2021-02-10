@@ -1,0 +1,35 @@
+
+$sql="INSERT INTO `registeration` (`first_name`, `last_name`, `dob`, `gender`, `password`, `email`, `phone_no`) VALUES ( 'first_name', 'last_name', 'dob', 'gender', 'password', 'email', 'phone_no')";
+$result=mysqli_query($conn, $sql);
+
+$sql="select * from registeration where phone_no='$phone_no' AND password='$password'";
+$result=mysqli_query($conn,$sql);
+
+
+
+$check=mysqli_fetch_array($result);
+if($result)
+{
+                   if($check['phone_no']==$phone_no )
+ 			{
+ 				if($check['password']==$password)
+					{
+						$_SESSION["user_id"]=$check['user_id'];;
+						header("location: profile.php");
+						header("location:profile.php?success=login ok");
+					}
+
+
+			 }	
+                    else           
+			{ 	
+                          header("location:index.php?invalid=User Already Exists");
+
+                                
+  				
+			}
+	
+
+	
+}
+

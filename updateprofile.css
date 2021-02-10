@@ -1,0 +1,61 @@
+
+.container{
+position:relative;
+top:70px;
+left:200px;
+    width:20%
+    text-align: right;
+font-family: sans-serif;
+}
+        #first_name, #last_name, #dob, #phone_no, #gender, #email, #password{
+            outline: none;
+            position: relative;
+            font-size: 16px;
+            border: none;
+            left: 10%;
+            align-content: center;
+            color:#fff;
+            letter-spacing: 1.5px;
+            padding: 12px 5px;
+            width: 20%;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            background: black;
+        }
+.first_name .last_name .dob{
+            outline: none;
+            position: relative;
+            font-size: 16px;
+            border: none;
+            left: 3%;
+            color:#fff;
+            letter-spacing: 1.5px;
+            padding: 12px 15px;
+            width: 20%;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            background: black;
+        }
+
+        button.update-btn {
+            color: #fff;
+            position: relative;
+            background: orange;
+            border: none;
+            left: 35%;
+            outline: none;
+            width: 15%;
+            font-size: 15px;
+            border-radius: 0;
+            padding: 14px 0px;
+            cursor: pointer;
+            letter-spacing: 2px;
+            -webkit-transition: 0.5s all;
+            -o-transition: 0.5s all;
+            -moz-transition: 0.5s all;
+            -ms-transition: 0.5s all;
+            transition: 0.5s all;
+        }
+

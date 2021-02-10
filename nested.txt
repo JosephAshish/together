@@ -1,0 +1,1 @@
+SELECT request_id FROM request_confirmation where offer_id IN (SELECT offer_id FROM offer_ride WHERE user_id=1)
